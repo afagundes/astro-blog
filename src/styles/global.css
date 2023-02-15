@@ -51,6 +51,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
+    color: #4c1d95;
 }
 
 .nav-links a:hover, a:focus {
@@ -59,6 +60,29 @@ h1 {
 
 .expanded {
     display: unset;
+}
+
+.tags {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.tags li {
+    background-color: #4c1d95;
+    color: #f1f5f9;
+    padding: 2px 10px;
+    border-radius: 50px;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: background-color .2s ease-in;
+}
+
+.tags li:hover {
+    background-color: indigo;
 }
 
 @media screen and (min-width: 636px) {
