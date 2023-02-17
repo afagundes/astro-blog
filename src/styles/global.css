@@ -62,34 +62,6 @@ h1 {
     display: unset;
 }
 
-.tags {
-    margin: 0;
-    margin-bottom: 1rem;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
-.tags li {
-    background-color: #4c1d95;
-    padding: 2px 10px;
-    border-radius: 50px;
-    font-size: .9rem;
-    cursor: pointer;
-    transition: background-color .2s ease-in;
-}
-
-.tags li:hover {
-    background-color: indigo;
-}
-
-.tags li a {
-    color: white;
-    text-decoration: none;
-    color: #f1f5f9;
-}
-
 @media screen and (min-width: 636px) {
     .nav-links {
         margin-left: 5em;
